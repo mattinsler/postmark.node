@@ -1,0 +1,38 @@
+{
+  "name": "postmark.node",
+  "description": "Postmark API client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattinsler/postmark.node",
+  "author": {
+    "name": "Matt Insler",
+    "email": "matt.insler@gmail.com",
+    "url": "http://www.mattinsler.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattinsler/postmark.node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattinsler/postmark.node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattinsler/postmark.node/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "dist/postmark",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "rest.node": "0.4.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0"
+
+  },
+  "keywords": []
+}
